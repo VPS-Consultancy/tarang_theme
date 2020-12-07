@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tarang_theme *.css
+recursive-include tarang_theme *.csv
+recursive-include tarang_theme *.html
+recursive-include tarang_theme *.ico
+recursive-include tarang_theme *.js
+recursive-include tarang_theme *.json
+recursive-include tarang_theme *.md
+recursive-include tarang_theme *.png
+recursive-include tarang_theme *.py
+recursive-include tarang_theme *.svg
+recursive-include tarang_theme *.txt
+recursive-exclude tarang_theme *.pyc
